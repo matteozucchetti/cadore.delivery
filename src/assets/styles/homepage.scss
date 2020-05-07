@@ -1,0 +1,31 @@
+.homepage-buttons-container{
+  a{
+    @apply w-full mb-2;
+    @screen md {
+      @apply w-auto mx-2;
+    }
+  }
+}
+
+#insta-component{  
+  margin-top: 5rem;
+  .insta-badge{
+    @apply mx-auto w-2/6;
+    @screen md {
+      width: 100px;
+    }
+  }
+}
+
+.deco{
+    width: 280px;
+    position: absolute;
+    bottom: 0;
+    &--left{
+      left: 0;
+    }
+    &--right{
+      right: 0;
+      transform: rotateY(180deg);
+    }
+  }

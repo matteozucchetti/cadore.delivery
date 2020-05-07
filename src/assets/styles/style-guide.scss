@@ -1,0 +1,61 @@
+h1 {
+  @apply text-4xl pt-5 capitalize font-bold mb-5;
+  line-height: 1.2;
+  
+  @screen md {
+    @apply text-5xl;
+    @apply pt-10;
+  }
+
+  @screen lg {
+    @apply text-6xl;
+  }
+}
+h2 {
+  @apply text-xl;
+  line-height: 1.5;
+}
+h3 {
+  @apply text-lg font-bold;
+  line-height: 1;
+}
+
+button{
+  outline: none !important;
+}
+
+input{
+  &:focus::placeholder{
+    color: transparent;
+  }
+  &::placeholder{
+    @apply font-normal text-sm;
+  }
+}
+
+.vcd-button{
+  @apply bg-vcd-azzurro text-white py-3 px-10 border-b-4 border-vcd-azzurro-scuro rounded;
+  transition: all .15s;
+  &:hover{
+    @apply border-b-2 border-t-2 border-vcd-azzurro;
+  }
+  &--rosa{
+    @apply bg-vcd-rosa text-white py-3 px-10 border-b-4 border-vcd-rosso rounded;
+    &:hover{
+      @apply border-b-2 border-t-2 border-vcd-rosa;
+    }
+  }
+  &--white{
+    @apply bg-white text-vcd-azzurro py-3 px-10 border-b-4 border-vcd-azzurro rounded;
+    &:hover{
+      @apply border-b-2 border-t-2 border-white;
+    }
+  }
+}
+
+.vcd-category-button{
+  @apply bg-vcd-arancione text-white py-2 px-6 border border-white rounded;
+  &--pressed{
+    @apply bg-white text-vcd-arancione;
+  }
+}

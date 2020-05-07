@@ -1,0 +1,10 @@
+node_modules
+.DS_Store
+/build
+/*.log
+
+size-plugin.json
+data
+.gitmodules
+# Local Netlify folder
+.netlify

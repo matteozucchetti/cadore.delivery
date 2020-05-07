@@ -1,0 +1,55 @@
+{
+  "private": true,
+  "name": "CadoreDelivery",
+  "version": "1.2.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "per-env",
+    "start:production": "npm run -s serve",
+    "start:development": "npm run -s dev",
+    "build": "preact build",
+    "serve": "preact build && sirv build --cors --single",
+    "dev": "preact watch",
+    "lint": "eslint src",
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate"
+  },
+  "eslintConfig": {
+    "extends": "preact",
+    "ignorePatterns": [
+      "build/"
+    ]
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.2",
+    "all-contributors-cli": "^6.14.1",
+    "autoprefixer": "^9.7.6",
+    "copy-webpack-plugin": "^5.1.1",
+    "eslint": "^6.0.1",
+    "eslint-config-preact": "^1.1.0",
+    "identity-obj-proxy": "^3.0.0",
+    "per-env": "^1.0.2",
+    "postcss-cli": "^7.1.0",
+    "preact-cli": "^3.0.0-rc.6",
+    "preact-cli-plugin-env-vars": "^1.2.1",
+    "preact-render-spy": "^1.2.1",
+    "sirv-cli": "^0.4.5",
+    "tailwindcss": "^1.2.0"
+  },
+  "dependencies": {
+    "body-scroll-lock": "^3.0.2",
+    "lodash": "^4.17.15",
+    "postcss-conditionals": "^2.1.0",
+    "postcss-import": "^12.0.1",
+    "postcss-mixins": "^6.2.3",
+    "postcss-nested": "^4.2.1",
+    "postcss-simple-vars": "^5.0.2",
+    "preact": "^10.3.2",
+    "preact-cli-svg-loader": "^1.1.0",
+    "preact-render-to-string": "^5.1.4",
+    "preact-router": "^3.2.1",
+    "preact-scrollchor": "^4.4.0",
+    "react-ios-pwa-prompt": "^1.7.0",
+    "typeface-poppins": "0.0.72"
+  }
+}

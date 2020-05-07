@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: /form
+Disallow: /form/success
+
+Sitemap: https://cadore.delivery/sitemap.xml

@@ -1,0 +1,43 @@
+.category-heading{
+  position: relative;
+  &::after{
+    content: '';
+    border-top: 2px solid;
+    @apply border-vcd-arancione;
+    width: 100%;
+    @mixin centerer true, true;
+  }
+}
+
+.vdc-infoButtons{
+  @apply flex justify-center items-center rounded border-b-4 p-2 ml-2;
+  width: 2.5rem;
+  @screen md {
+    @apply p-4;
+    width: 3.7rem;
+  }
+  &--info{
+    @apply border-vcd-azzurro-scuro bg-vcd-azzurro;
+    &:hover{
+      @apply border-b-2 border-t-2 border-vcd-azzurro;
+    }
+  }
+  &--tel{
+    @apply border-vcd-rosso bg-vcd-rosa relative;
+    a{
+      @mixin centerer true, true;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      @apply p-2;
+      @screen md {
+        @apply p-4;
+      }
+    }
+    &:hover{
+      @apply border-b-2 border-t-2 border-vcd-rosa;
+    }
+  }  
+}

@@ -1,0 +1,55 @@
+.vcd-footer{
+
+  .icon-heart{
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    @apply mx-1;
+    animation: heartbeat 1.5s infinite;
+    path{
+      fill: #fff;
+    }
+  }
+
+  .deco{
+    position: absolute;
+    bottom: -8px;
+    &--left{
+      left: 3rem;
+      width: 280px;
+    }
+    &--right{
+      right: 3rem;
+      width: 150px;
+    }
+  }
+
+}
+
+@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( .75 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( .75 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( .75 );
+  }
+  100%
+  {
+    transform: scale( .75 );
+  }
+}

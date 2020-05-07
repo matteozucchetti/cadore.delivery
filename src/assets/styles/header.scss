@@ -1,0 +1,9 @@
+.icon-insta, .icon-mail{
+  width: 1rem;
+  height: 1rem;
+  display: inline-block;
+  @apply mx-2;
+  path{
+    fill: #fff;
+  }
+}
