@@ -12,7 +12,7 @@ export default function FormSuccess() {
     <Fragment>
   		<div class="text-center max-w-screen-sm mx-auto relative pb-10  px-5">
 
-        <h2 className="text-center font-light text-vcd-rosa tracking-wide my-5 md:my-10">
+        <h2 className="text-center font-light text-cd-giallo tracking-wide my-5 md:my-10">
           <span class="bg-white inline-block relative z-10 px-10 uppercase">grazie per aver aggiunto la tua attività</span>
         </h2>
 
@@ -22,7 +22,7 @@ export default function FormSuccess() {
 
         <Link href="/">
           <button
-            class="vcd-button w-full text-center md:w-auto mb-10">
+            class="cd-button cd-button--giallo w-full text-center md:w-auto my-10">
             torna alla homepage
           </button>
         </Link>

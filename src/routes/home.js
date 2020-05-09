@@ -93,21 +93,21 @@ export default class Home extends Component {
           <h2 class="text-center font-thin">Scopri quali attività effettuano consegne a domicilio in Cadore.</h2>
           <h2 class="text-center font-semibold">Ristoranti, pizzerie, bar e negozi direttamente a casa!</h2>
 
-          <p class="my-10 text-vcd-arancione text-center font-light text-2xl tracking-widest">COMING SOON</p>
+          <p class="my-10 text-cd-rosa text-center font-light text-2xl tracking-widest">COMING SOON</p>
 
 
           {/*<div class="flex flex-wrap justify-center items-center mt-10 homepage-buttons-container">
                       <Scrollchor to="#search-component" animate={{ duration: 600 }}>
                         <button
                           onClick={() => { gtagEvent('custom_click','home','click on cerca - scroll down') }}
-                          class="vcd-button w-full text-center md:w-auto">
+                          class="cd-button w-full text-center md:w-auto">
                           cerca nella tua zona
                         </button>
                       </Scrollchor>
                       <Link href="/form">
                         <button 
                           onClick={() => { gtagEvent('custom_click','home','click on aggiungi attività') }}
-                          class="vcd-button vcd-button--rosa w-full text-center md:w-auto">
+                          class="cd-button cd-button--giallo w-full text-center md:w-auto">
                           aggiungi un'attività
                         </button>
                       </Link>
@@ -117,14 +117,14 @@ export default class Home extends Component {
 
         </div>
 
-        {/*<div class="bg-vcd-arancione mt-10 py-10 w-full" id="search-component">
+        {/*<div class="bg-cd-rosa mt-10 py-10 w-full" id="search-component">
                   <div class="max-w-screen-lg mx-auto text-center px-5">
                     <p class="text-white mb-4">Inserisci il nome del paese o dell'attività che stai cercando</p>
                     <input
                       class="bg-white py-3 px-4 w-full appearance-none leading-normal text-center rounded text-lg font-semibold focus:outline-none mb-8"
                       id="search-input"
                       type="text"
-                      placeholder="es. Edolo, Syesta, Nami Sushi"
+                      placeholder="es. El Gringo, Pieve di Cadore, Saraceno"
                       onInput={this.handleChangeFilter}
                       onkeydown={this.handleKeyPress}
                     />
@@ -133,9 +133,9 @@ export default class Home extends Component {
                       {Object.keys(stores).map(key => (
                         <button
                           onClick={this.handleCategoryFilter(key)}
-                          class={`vcd-category-button mx-2 mb-2 flex-grow-0 flex-shrink-0 ${
+                          class={`cd-category-button mx-2 mb-2 flex-grow-0 flex-shrink-0 ${
                             key === categoryFilter
-                              ? "vcd-category-button--pressed"
+                              ? "cd-category-button--pressed"
                               : ""
                           }`}
                         >
@@ -164,7 +164,7 @@ export default class Home extends Component {
                       <span class="my-5 block">Oops! Non abbiamo trovato risultati corrispondenti alla tua ricerca.</span>
                     )}
         
-                </div>
+                </div>*/}
         
                 <div class="w-full mx-auto px-5 pb-10 text-center relative" id="insta-component">
                   
@@ -176,11 +176,11 @@ export default class Home extends Component {
                     <InstaBadge />
                     <p class="text-xl md:text-2xl font-thin my-5">@cadore_delivery</p>
                     <p class="font-thin mb-5">Seguici su Instagram<br />per rimanere sempre aggiornato sulle ultime novità</p>
-                    <button class="vcd-button w-full text-center md:w-auto">seguici</button>
+                    <button class="cd-button cd-button--giallo w-full text-center md:w-auto">seguici</button>
                   </a>
-                  <Deco className="hidden lg:block deco deco--left" />
-                  <Deco className="hidden lg:block deco deco--right" />
-                </div>*/}
+                  {/*<Deco className="hidden lg:block deco deco--left" />
+                  <Deco className="hidden lg:block deco deco--right" />*/}
+                </div>
         
       </Fragment>
     );

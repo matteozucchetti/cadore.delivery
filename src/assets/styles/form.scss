@@ -3,7 +3,7 @@
   width: 10px;
   height: 10px; 
   margin-right: 5px;
-  fill: #EC6680;
+  fill: #fab82e;
 }
 
 .form-heading{
@@ -11,7 +11,7 @@
   &::after{
     content: '';
     border-top: 2px solid;
-    @apply border-vcd-rosa;
+    @apply border-cd-giallo;
     width: 100%;
     @mixin centerer true, true;
   }
@@ -23,7 +23,7 @@ input[type=text], input[type=tel], textarea {
 }
 
 input[type=text]:focus, input[type=tel]:focus, textarea:focus {
-  box-shadow: 0 0 5px rgba(236, 102, 128, 1);
+  box-shadow: 0 0 5px rgba(116, 195, 181, 1);
   border-color: #fff;
 }
 
@@ -44,7 +44,7 @@ input[type=text]:focus, input[type=tel]:focus, textarea:focus {
     content: '';
       width: 30px;
       height: 30px;
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 52 52'%3E%3Cpath d='M21 37.2L9.6 25.8c-.6-.7-.6-1.8 0-2.5l2.5-2.5c.7-.7 1.8-.7 2.5 0l7.7 7.7L38.7 12c.7-.7 1.8-.7 2.5 0l2.5 2.5c.7.7.7 1.8 0 2.5L23.5 37.2c-.7.6-1.8.6-2.5 0z' fill='%23f2913e'/%3E%3C/svg%3E");
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 52 52'%3E%3Cpath d='M21 37.2L9.6 25.8c-.6-.7-.6-1.8 0-2.5l2.5-2.5c.7-.7 1.8-.7 2.5 0l7.7 7.7L38.7 12c.7-.7 1.8-.7 2.5 0l2.5 2.5c.7.7.7 1.8 0 2.5L23.5 37.2c-.7.6-1.8.6-2.5 0z' fill='%23e73f5b'/%3E%3C/svg%3E");
       @mixin centerer true, true;
       transform: translate(-50%, -50%) scale(0);
   }
@@ -72,7 +72,7 @@ input[type=text]:focus, input[type=tel]:focus, textarea:focus {
     content: '';
       width: 23px;
       height: 23px;
-      @apply bg-vcd-arancione rounded-full;
+      @apply bg-cd-rosa rounded-full;
       @mixin centerer true, true;
       transform: translate(-50%, -50%) scale(0);
   }

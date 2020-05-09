@@ -7,7 +7,7 @@ export const D_When = ({when}) => {
 
 	return (
 		<Fragment>
-      <div class="vcd-dialogBox">
+      <div class="cd-dialogBox">
         <div class="w-full">
     			<h3 class="mt-4 mb-2">Giorni</h3>
     			<div class="mb-2 mt-4 text-xs flex justify-center items-center max-w-screen-sm mx-auto flex-wrap">

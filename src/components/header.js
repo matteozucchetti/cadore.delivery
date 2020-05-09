@@ -16,7 +16,7 @@ export default class Header extends Component {
   render(){
     return (
       <Fragment>
-        <div class="w-full py-2 px-5 md:px-10 bg-vcd-azzurro flex flex-wrap align-items-center justify-center md:justify-end vcd-header">
+        <div class="w-full py-2 px-5 md:px-10 bg-cd-verde flex flex-wrap align-items-center justify-center md:justify-end cd-header">
           <a href="https://www.instagram.com/cadore_delivery/"
             target="_blank"
             rel="noopener noreferrer w-full"

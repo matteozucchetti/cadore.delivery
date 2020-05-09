@@ -1,7 +1,7 @@
 .backdrop {
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
-  background-color: rgba(242, 146, 62, .7);
+  background-color: rgba(231, 63, 91, .7);
   &-white{
     background-color: rgba(255, 255, 255, .9);
   }
@@ -12,13 +12,13 @@
   position: absolute;
   top: -11px;
   left: 10px;
-  @apply bg-vcd-rosa rounded font-light text-white;
+  @apply bg-cd-giallo rounded font-light text-white;
   text-transform: uppercase;
   font-size: 10px;
   padding: 2px 7px;
 }
 
-.vcdDialog{
+.cdDialog{
   padding: 0;
   &-inner{
     @mixin centerer true, false;
@@ -29,10 +29,10 @@
   }
 }
 
-.vcd-closeButton{
-  @apply text-center cursor-pointer bg-vcd-rosa text-white border-b-4 border-vcd-rosso rounded;
+.cd-closeButton{
+  @apply text-center cursor-pointer bg-cd-giallo text-white border-b-4 border-cd-giallo-scuro rounded;
   &:hover{
-    @apply border-b-2 border-t-2 border-vcd-rosa;
+    @apply border-b-2 border-t-2 border-cd-giallo;
   }
   @mixin centerer false, true;
   right: 10px;
@@ -48,8 +48,8 @@
   }
 }
 
-.vcd-dialogBox{
-  @apply flex text-center max-w-screen-md mx-auto border-b border-vcd-azzurro py-4;
+.cd-dialogBox{
+  @apply flex text-center max-w-screen-md mx-auto border-b border-cd-verde py-4;
 }
 
 .day-check{
@@ -64,6 +64,6 @@
 
 .contact-icon{
   path{
-    fill: #F2923E;
+    fill: #e73f5b;
   }
 }

@@ -62,20 +62,20 @@ const Prompt = ({visible, closePopup}) => (
 		style={stylePrompt} 
 		class={`fixed p-2 w-11/12 bottom-0 rounded backdrop backdrop-white max-w-md border border-grey-500 z-20 ${visible ? '' : 'hidden'}`}
 	>
-		<div class="flex justify-between items-center border-b border-vcd-azzurro-scuro p-2 relative">
+		<div class="flex justify-between items-center border-b border-cd-verde-scuro p-2 relative">
 			<p class="font-semibold text-lg">Sono un'app!</p>
 			<button
-        class="vcd-closeButton z-30"
+        class="cd-closeButton z-30"
         onClick={closePopup}
         style="width:30px;height:30px;top:0;right:0;transform:none"
       ><CloseIcon /></button>
 		</div>
-		<p class="border-b border-vcd-azzurro-scuro py-4 px-2 text-sm">Aggiungimi alla Home per utilizzarmi in fullscreen e offline. Così appena vorrai ordinare mi avrai a portata di tap!</p>
-		<div class="flex items-center text-vcd-azzurro-scuro px-2 my-4 text-sm">
+		<p class="border-b border-cd-verde-scuro py-4 px-2 text-sm">Aggiungimi alla Home per utilizzarmi in fullscreen e offline. Così appena vorrai ordinare mi avrai a portata di tap!</p>
+		<div class="flex items-center text-cd-verde-scuro px-2 my-4 text-sm">
 			<ShareIcon classes="fill-current" size="20px" />
 			<p class="px-2">Fai tap sul bottone condividi</p>
 		</div>
-		<div class="flex items-center text-vcd-azzurro-scuro px-2 mb-2 text-sm">
+		<div class="flex items-center text-cd-verde-scuro px-2 mb-2 text-sm">
 			<HomeScreenIcon classes="fill-current" size="20px" />
 			<p class="px-2 ">Fai tap sulla voce 'Aggiungi a Home'</p>
 		</div>

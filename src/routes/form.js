@@ -13,9 +13,9 @@ export default function Form() {
     <Fragment>
   		<div class="max-w-screen-lg mx-auto px-5">
 
-        <Link onClick={() => { gtagEvent('custom_click','form','click on torna indietro') }} class="text-vcd-rosa text-xs md:text-sm" href="/"><LeftArrow />torna indietro</Link>
+        <Link onClick={() => { gtagEvent('custom_click','form','click on torna indietro') }} class="text-cd-giallo text-xs md:text-sm" href="/"><LeftArrow />torna indietro</Link>
 
-        <h2 className="text-center font-light text-vcd-rosa tracking-wide form-heading my-5 md:my-10">
+        <h2 className="text-center font-light text-cd-giallo tracking-wide form-heading my-5 md:my-10">
           <span class="bg-white inline-block relative z-10 px-10 uppercase">AGGIUNGI LA TUA ATTIVITÀ</span>
         </h2>
         <p class="mb-5 text-center"><b>Compila il form</b> qui sotto per <b>inviare la richiesta</b> e aggiungere la tua attività</p>
@@ -37,7 +37,7 @@ export default function Form() {
 
           </div>
 
-          <div class="flex flex-wrap border-b-2 border-vcd-rosa">
+          <div class="flex flex-wrap border-b-2 border-cd-giallo">
 
             <div class="w-full md:w-1/2 px-2 mb-5">
               <input class="bg-white border border-gray-500 py-2 px-4 block w-full appearance-none leading-normal text-xs sm:text-base rounded" required type="text" name="mail" placeholder="E-mail" />
@@ -49,7 +49,7 @@ export default function Form() {
 
           </div>
 
-          <div class="flex flex-wrap border-b-2 border-vcd-rosa mt-10">
+          <div class="flex flex-wrap border-b-2 border-cd-giallo mt-10">
 
             <div class="w-full px-2 mb-10">
               <label>Dove consegni? (specifica qui i comuni in cui puoi effettuare le consegne)
@@ -59,7 +59,7 @@ export default function Form() {
 
           </div>
 
-          <div class="flex flex-wrap border-b-2 border-vcd-rosa mt-10">
+          <div class="flex flex-wrap border-b-2 border-cd-giallo mt-10">
 
             <div class="w-full px-2 mb-10">
               <label class="">In quali giorni è attivo il servizio?
@@ -113,7 +113,7 @@ export default function Form() {
 
           </div>
 
-          <div class="flex flex-wrap border-b-2 border-vcd-rosa mt-10">
+          <div class="flex flex-wrap border-b-2 border-cd-giallo mt-10">
 
             <div class="w-auto px-2 mb-10">
               <label>Costo consegna
@@ -128,7 +128,7 @@ export default function Form() {
 
           </div>
 
-          <div class="flex flex-wrap border-b-2 border-vcd-rosa mt-10">
+          <div class="flex flex-wrap border-b-2 border-cd-giallo mt-10">
 
             <div class="w-full px-2 mb-10">
               <label class="">Saresti interessato a mantenere attivo il servizio anche dopo il periodo di lockdown dovuto al COVID-19?
@@ -168,7 +168,7 @@ export default function Form() {
           <div class="flex flex-wrap">
 
             <div class="w-full text-center px-2 mb-10">
-              <button class="vcd-button w-full text-center md:w-auto" type="submit">invia richiesta</button>
+              <button class="cd-button cd-button--giallo w-full text-center md:w-auto" type="submit">invia richiesta</button>
             </div>
 
           </div>

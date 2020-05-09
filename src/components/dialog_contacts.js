@@ -31,7 +31,7 @@ function Tel({tel, name}) {
 export const D_Contacts = ({tel, mail, site, name}) => {
   return (
     <Fragment>
-      <div class="vcd-dialogBox border-none">
+      <div class="cd-dialogBox border-none">
         <div class="w-full">
           <h3 class="mt-4 mb-2">Contatti</h3>
           <div class="mb-2 mt-4 text-sm flex flex-wrap justify-center items-start">

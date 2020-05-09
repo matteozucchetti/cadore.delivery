@@ -21,7 +21,7 @@ export default class Footer extends Component {
   render(){
     return (
       <Fragment>
-        <div class="w-full text-center vcd-footer py-10 px-5 bg-vcd-rosa border-b-8 border-vcd-azzurro relative">
+        <div class="w-full text-center cd-footer py-10 px-5 bg-cd-rosa border-b-8 border-cd-verde relative">
 
           <p class="mb-5 text-white">Se la nostra app ti piace, fai una donazione per supportarci!</p>
 
@@ -29,7 +29,7 @@ export default class Footer extends Component {
           <input type="hidden" name="cmd" value="_s-xclick" />
           <input type="hidden" name="hosted_button_id" value="JDTBJFDUYHDB6" />
           <img alt="" border="0" src="https://www.paypal.com/it_IT/i/scr/pixel.gif" width="1" height="1" />
-          <button class="vcd-button vcd-button--white w-full text-center md:w-auto mb-10" title="Fai una donazione con il pulsante PayPal!" alt="Fai una donazione con il pulsante PayPal" onClick={() => { gtagEvent('custom_click','footer','click on dona') }} type="submit">dona</button>
+          <button class="cd-button cd-button--white w-full text-center md:w-auto mb-10" title="Fai una donazione con il pulsante PayPal!" alt="Fai una donazione con il pulsante PayPal" onClick={() => { gtagEvent('custom_click','footer','click on dona') }} type="submit">dona</button>
           </form>
 
           <p class="mb-5 text-white">
@@ -62,8 +62,8 @@ export default class Footer extends Component {
             onClick={() => { gtagEvent('custom_click','footer','click on github') }}
           >Based on <span class="underline">this</span> GitHub project</a>
           <p class="text-center text-white">
-            <a href="https://www.iubenda.com/privacy-policy/19385130" class="iubenda-white iubenda-embed mx-2" title="Privacy Policy ">Privacy Policy</a>
-            <a href="https://www.iubenda.com/privacy-policy/19385130/cookie-policy" class="iubenda-white iubenda-embed mx-2" title="Cookie Policy ">Cookie Policy</a>
+            <a href="https://www.iubenda.com/privacy-policy/37912770" class="iubenda-white iubenda-embed mx-2" title="Privacy Policy ">Privacy Policy</a>
+            <a href="https://www.iubenda.com/privacy-policy/37912770/cookie-policy" class="iubenda-white iubenda-embed mx-2" title="Cookie Policy ">Cookie Policy</a>
           </p>
 
           <Montagna1 className="hidden lg:block deco deco--left" />

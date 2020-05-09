@@ -33,29 +33,29 @@ input{
   }
 }
 
-.vcd-button{
-  @apply bg-vcd-azzurro text-white py-3 px-10 border-b-4 border-vcd-azzurro-scuro rounded;
+.cd-button{
+  @apply bg-cd-verde text-white py-3 px-10 border-b-4 border-cd-verde-scuro rounded;
   transition: all .15s;
   &:hover{
-    @apply border-b-2 border-t-2 border-vcd-azzurro;
+    @apply border-b-2 border-t-2 border-cd-verde;
   }
-  &--rosa{
-    @apply bg-vcd-rosa text-white py-3 px-10 border-b-4 border-vcd-rosso rounded;
+  &--giallo{
+    @apply bg-cd-giallo text-white py-3 px-10 border-b-4 border-cd-giallo-scuro rounded;
     &:hover{
-      @apply border-b-2 border-t-2 border-vcd-rosa;
+      @apply border-b-2 border-t-2 border-cd-giallo;
     }
   }
   &--white{
-    @apply bg-white text-vcd-azzurro py-3 px-10 border-b-4 border-vcd-azzurro rounded;
+    @apply bg-white text-cd-verde py-3 px-10 border-b-4 border-cd-verde rounded;
     &:hover{
       @apply border-b-2 border-t-2 border-white;
     }
   }
 }
 
-.vcd-category-button{
-  @apply bg-vcd-arancione text-white py-2 px-6 border border-white rounded;
+.cd-category-button{
+  @apply bg-cd-rosa text-white py-2 px-6 border border-white rounded;
   &--pressed{
-    @apply bg-white text-vcd-arancione;
+    @apply bg-white text-cd-rosa;
   }
 }
