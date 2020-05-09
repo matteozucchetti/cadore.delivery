@@ -1,2 +1,2 @@
 # CadoreDelivery
-This is a copy of VallecamonicaDelivery
+This is a copy of VallecamonicaDelivery.
