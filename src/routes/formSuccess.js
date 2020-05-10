@@ -28,8 +28,6 @@ export default function FormSuccess() {
         </Link>
 
   		</div>
-      <Deco className="hidden lg:block deco deco--left" />
-      <Deco className="hidden lg:block deco deco--right" />
     </Fragment>
 	);
 }

@@ -27,7 +27,7 @@ export default class Footer extends Component {
 
           <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
           <input type="hidden" name="cmd" value="_s-xclick" />
-          <input type="hidden" name="hosted_button_id" value="JDTBJFDUYHDB6" />
+          <input type="hidden" name="hosted_button_id" value="Z4E39NKZYXCHC" />
           <img alt="" border="0" src="https://www.paypal.com/it_IT/i/scr/pixel.gif" width="1" height="1" />
           <button class="cd-button cd-button--white w-full text-center md:w-auto mb-10" title="Fai una donazione con il pulsante PayPal!" alt="Fai una donazione con il pulsante PayPal" onClick={() => { gtagEvent('custom_click','footer','click on dona') }} type="submit">dona</button>
           </form>
@@ -53,7 +53,7 @@ export default class Footer extends Component {
             > Francesca Da Forno</a>
           </p>
           <p class="mb-5 text-white">
-            Special thanks to <span class="font-semibold">Matteo Bernardi</span>
+            Special thanks to <span class="font-semibold">Anna Da Forno, Sara Ferraù</span>
           </p>
           <a href="https://github.com/tomma5o/domicilioBoilerplate"
             target="_blank"
