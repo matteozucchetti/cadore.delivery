@@ -65,7 +65,7 @@ export default function Form() {
 
             <div class="w-full px-2 mb-10">
               <label>Dove consegni? (specifica qui i comuni in cui puoi effettuare le consegne)
-                <textarea class="bg-white border border-gray-500 py-2 px-4 mt-4 block w-full appearance-none leading-normal text-xs sm:text-base rounded" required type="text" name="delivery_city" placeholder="es. Edolo, Ponte di Legno, Darfo Boario Terme, Lovere" />
+                <textarea class="bg-white border border-gray-500 py-2 px-4 mt-4 block w-full appearance-none leading-normal text-xs sm:text-base rounded" required type="text" name="delivery_city" placeholder="es. Pieve di Cadore, Valle di Cadore, Cibiana di Cadore" />
               </label>
             </div>
 
