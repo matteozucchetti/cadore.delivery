@@ -37,14 +37,26 @@ export default function Form() {
 
           </div>
 
-          <div class="flex flex-wrap border-b-2 border-cd-giallo">
+          <div class="flex flex-wrap">
 
             <div class="w-full md:w-1/2 px-2 mb-5">
               <input class="bg-white border border-gray-500 py-2 px-4 block w-full appearance-none leading-normal text-xs sm:text-base rounded" required type="text" name="mail" placeholder="E-mail" />
             </div>
 
-            <div class="w-full md:w-1/2 px-2 mb-10">
+            <div class="w-full md:w-1/2 px-2 mb-5">
               <input class="bg-white border border-gray-500 py-2 px-4 block w-full appearance-none leading-normal text-xs sm:text-base rounded" type="text" name="site" placeholder="Sito Web" />
+            </div>
+
+          </div>
+
+          <div class="flex flex-wrap border-b-2 border-cd-giallo">
+
+            <div class="w-full md:w-1/2 px-2 mb-5">
+              <input class="bg-white border border-gray-500 py-2 px-4 block w-full appearance-none leading-normal text-xs sm:text-base rounded" type="text" name="instagram" placeholder="Link Instagram" />
+            </div>
+
+            <div class="w-full md:w-1/2 px-2 mb-10">
+              <input class="bg-white border border-gray-500 py-2 px-4 block w-full appearance-none leading-normal text-xs sm:text-base rounded" type="text" name="facebook" placeholder="Link Facebook" />
             </div>
 
           </div>
