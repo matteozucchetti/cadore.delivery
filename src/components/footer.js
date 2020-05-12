@@ -53,7 +53,7 @@ export default class Footer extends Component {
             > Francesca Da Forno</a>
           </p>
           <p class="mb-5 text-white">
-            Special thanks to <span class="font-semibold">Anna Da Forno, Sara Ferraù</span>
+            Special thanks to <span class="font-semibold">Anna Da Forno, Sara Ferraù, Maria Luisa Cravagna</span>
           </p>
           <a href="https://github.com/tomma5o/domicilioBoilerplate"
             target="_blank"
