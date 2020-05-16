@@ -90,7 +90,7 @@ export default class Home extends Component {
 
         <div class="max-w-screen-lg mx-auto px-5">
 
-          <h2 class="text-center font-thin">Scopri quali attività effettuano consegne a domicilio in Cadore.</h2>
+          <h2 class="text-center font-thin">Scopri quali attività effettuano consegne a domicilio in Cadore e dintorni.</h2>
           <h2 class="text-center font-semibold">Ristoranti, pizzerie, bar e negozi direttamente a casa!</h2>
 
 
