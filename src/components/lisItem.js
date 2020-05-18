@@ -41,7 +41,7 @@ export const ListItem = (props) => {
     <article class={`relative cursor-pointer flex justify-center items-stretch w-full my-5 ${isOpenToday() ? "" : "closed-today"}`}>
 
         <div onClick={(e) => { gtagEvent('custom_click', 'listing - shop name', name), action.setPopupNumbers(e, props) }} class="flex flex-auto justify-center items-start flex-col border border-cd-black rounded px-2 py-2 md:p-2">
-           <span class="text-sm md:text-base md:font-semibold">{name}</span>
+           <span class="text-sm md:text-base font-semibold">{name}</span>
            <span class="text-xs leading-none">{desc}</span>
         </div>
 
