@@ -46,7 +46,7 @@ export const Dialog = ({
                <div class="md:text-center w-full md:w-auto">
                   <h2 class="text-2xl font-bold text-white pr-10 md:pr-0 leading-tight">{name}</h2>
                   <p class="text-white text-xs pr-10 md:pr-0">
-                     <PinIcon class="inline-block" width="20" height="20" />
+                     <PinIcon class="inline-block" width="20" height="20" style="margin-top:-5px;" />
                      {desc}
                   </p>
                </div>
