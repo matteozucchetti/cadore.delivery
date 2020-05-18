@@ -1,7 +1,7 @@
 // Components
 import { D_Contacts } from './dialog_contacts';
-import { D_Services } from './dialog_services';
-import { D_Payments } from './dialog_payments';
+// import { D_Services } from './dialog_services';
+// import { D_Payments } from './dialog_payments';
 import { D_Notes } from './dialog_notes';
 import { D_Where } from './dialog_where';
 import { D_When } from './dialog_when';
@@ -10,12 +10,14 @@ import { D_MinOrder } from './dialog_min_order.js';
 
 // Images
 import CloseIcon from '../assets/svg/icon_close.svg';
+import PinIcon from '../assets/svg/map_pin.svg';
 
 export const Dialog = ({
    isOpen,
    closePopup,
    closePopupFromButton,
    name,
+   desc,
    tel,
    mail,
    site,
@@ -41,7 +43,13 @@ export const Dialog = ({
          >
             <div class="flex justify-start md:justify-center items-center bg-cd-verde p-3 md:p-6 relative">
 
-               <h2 class="text-2xl font-bold text-white pr-10 md:pr-0 leading-tight">{name}</h2>
+               <div class="md:text-center w-full md:w-auto">
+                  <h2 class="text-2xl font-bold text-white pr-10 md:pr-0 leading-tight">{name}</h2>
+                  <p class="text-white text-xs pr-10 md:pr-0">
+                     <PinIcon class="inline-block" width="20" height="20" />
+                     {desc}
+                  </p>
+               </div>
 
                <button
                   class="cd-closeButton z-30"
