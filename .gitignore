@@ -2,7 +2,7 @@ node_modules
 .DS_Store
 /build
 /*.log
-
+.env
 size-plugin.json
 data
 .gitmodules
