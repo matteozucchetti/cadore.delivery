@@ -35,7 +35,6 @@ input{
 
 .cd-button{
   @apply bg-cd-verde text-white py-3 px-10 border-b-4 border-cd-verde-scuro rounded;
-  transition: all .15s;
   &:hover{
     @apply border-b-2 border-t-2 border-cd-verde;
   }
