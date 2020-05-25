@@ -23,7 +23,7 @@ export default function FormSuccess() {
         <Link href="/">
           <button
             class="cd-button cd-button--giallo w-full text-center md:w-auto my-10">
-            torna alla homepage
+            Torna alla homepage
           </button>
         </Link>
 

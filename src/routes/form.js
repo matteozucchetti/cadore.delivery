@@ -129,7 +129,7 @@ export default class Form extends Component {
          <Fragment>
             <div class="max-w-screen-lg mx-auto px-5">
 
-               <Link onClick={() => { gtagEvent('custom_click', 'form', 'click on torna indietro') }} class="text-cd-giallo text-xs md:text-sm" href="/"><LeftArrow />torna indietro</Link>
+               <Link onClick={() => { gtagEvent('custom_click', 'form', 'click on torna indietro') }} class="text-cd-giallo text-xs md:text-sm" href="/"><LeftArrow />Torna indietro</Link>
 
                <h2 className="text-center font-light text-cd-giallo tracking-wide form-heading my-5 md:my-10">
                   <span class="bg-white inline-block relative z-10 px-10 uppercase">AGGIUNGI LA TUA ATTIVITÀ</span>
@@ -296,7 +296,7 @@ export default class Form extends Component {
                   <div class="flex flex-wrap">
 
                      <div class="w-full text-center px-2 mb-10">
-                        <button class="cd-button cd-button--giallo w-full text-center md:w-auto" type="submit" onClick={(e) => this.handleSubmit(e)}>{loading ? <span>loading...</span> : <span>invia la richiesta</span>}</button>
+                        <button class="cd-button cd-button--giallo w-full text-center md:w-auto" type="submit" onClick={(e) => this.handleSubmit(e)}>{loading ? <span>Loading...</span> : <span>Invia la richiesta</span>}</button>
                      </div>
 
                   </div>

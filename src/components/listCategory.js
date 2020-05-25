@@ -5,7 +5,7 @@ export const ListCategory = ({ name = '', category = {}}) => {
 	return (
 		<section id={name.replace(' ', '_')} className="">
 			<h2 className="text-center font-semibold category-heading my-10">
-        <span class="bg-white inline-block relative z-10 px-10 lowercase">{name}</span>
+				<span class="bg-white inline-block relative z-10 px-10 capitalize">{name}</span>
 			</h2>
 			<div>
 				{
