@@ -93,6 +93,7 @@ export default class Form extends Component {
                const senderEmail = process.env.REACT_APP_EMAILJS_MAIL
                const receiverEmail = process.env.REACT_APP_EMAILJS_MAIL
                const text = response.data.html_url
+               const name = this.createTheJson(getFormData(form)).name
 
                emailjs.send(
                   'default_service',
@@ -100,7 +101,8 @@ export default class Form extends Component {
                   {
                      senderEmail,
                      receiverEmail,
-                     text
+                     text,
+                     name
                   }
                ).then((response) => {
 
