@@ -46,7 +46,7 @@ export const D_Contacts = ({ tel, mail, site, name, insta, facebook }) => {
                         <Tel {...{ tel, name }} />
                      </div>
                   )}
-                  {site && (
+                  {site && site != '//' && (
                      <div class="text-center w-full md:w-auto flex-auto md:flex-1 mb-2 px-2">
                         <a href={site} onClick={() => { gtagEvent('custom_click', 'dialog - website', name) }} target="_blank">
                            <WebsiteIcon
