@@ -11,7 +11,7 @@ export const D_MenuButton = ({ menu_link }) => {
                      <button
                         onClick={() => { gtagEvent('custom_click', 'dialog - menu', name) }}
                         class="cd-button cd-button--rosa w-full md:w-auto text-center">
-                        Guarda il menu
+                        Guarda il menu / listino
               </button>
                   </a>
                </div>
