@@ -24,7 +24,7 @@
     @mixin centerer true, false;
     top: 0;
     @screen md {
-      @mixin centerer true, true;
+      top: 3rem;
     }    
   }
 }

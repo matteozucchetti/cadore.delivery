@@ -12,6 +12,7 @@ module.exports = {
       'cd-verde': '#74c3b5',
       'cd-verde-scuro': '#60a599',
       'cd-rosa': '#e73f5b',
+      'cd-rosa-scuro': '#BB1042',
       'cd-giallo': '#fab82e',
       'cd-giallo-scuro': '#e1a529',
       'cd-black': '#535353'

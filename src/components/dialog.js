@@ -3,6 +3,7 @@ import { D_Contacts } from './dialog_contacts';
 // import { D_Services } from './dialog_services';
 // import { D_Payments } from './dialog_payments';
 import { D_Notes } from './dialog_notes';
+import { D_MenuButton } from './dialog_menu_button';
 import { D_Where } from './dialog_where';
 import { D_When } from './dialog_when';
 import { D_DeliveryFee } from './dialog_delivery_fee.js';
@@ -29,7 +30,8 @@ export const Dialog = ({
    min_order,
    delivery_fee,
    insta,
-   facebook
+   facebook,
+   menu_link
 }) => {
    return (
       <dialog
@@ -59,6 +61,8 @@ export const Dialog = ({
             </div>
 
             <div class="px-3 md:px-6 relative">
+
+               {menu_link && <D_MenuButton {...{ menu_link }} />}
 
                {where && <D_Where {...{ where }} />}
                {when && <D_When {...{ when }} />}
