@@ -35,41 +35,10 @@
    }
 }
 
-.save-web-app {
-   position: absolute;
-   right: 0;
-   top: 0;
-   left: 0;
-   margin: 0 auto;
-   text-align: center;
-   transform: translateY(-100%);
-
-   @screen md {
-      text-align: left;
-      left: auto;
-   }
-
-   .left-arrow {
-      display: inline-block;
-      width: 10px;
-      height: 10px;
-      margin-right: 5px;
-      fill: #F2923E;
-      transform: rotate(180deg);
-      animation: bounce 1s infinite;
-   }
-}
-
-@keyframes bounce {
-   0% {
-      transform: rotate(180deg) translateX(0);
-   }
-
-   50% {
-      transform: rotate(180deg) translateX(.2rem);
-   }
-
-   100% {
-      transform: rotate(180deg) translateX(0);
-   }
+.save-icon {
+   display: inline-block;
+   width: 1.5rem;
+   height: 1.5rem;
+   margin-right: 5px;
+   fill: #EC6680;
 }

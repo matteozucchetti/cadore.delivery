@@ -7,7 +7,7 @@ import { ListCategory } from '../components/listCategory';
 
 // Images
 import InstaBadge from '../assets/svg/insta_profile.svg';
-import LeftArrow from '../assets/svg/left_arrow.svg';
+import SaveIcon from '../assets/svg/save.svg';
 
 // gtag
 import gtagEvent from '../utils/gtagEvents.js';
@@ -113,11 +113,20 @@ export default class Home extends Component {
               </button>
                   </Link>
                </div>
+
+               <div class="flex flex-wrap justify-center items-center">
+                  <Link href="/salvawebapp">
+                     <button
+                        onClick={() => { gtagEvent('custom_click', 'home', 'click on salva web app') }}
+                        class="cd-button cd-button--transparent w-full text-center text-cd-rosa md:w-auto">
+                        <SaveIcon class="save-icon" /> Salva la web app
+              </button>
+                  </Link>
+               </div>
+
             </div>
 
             <div class="bg-cd-rosa mt-10 py-10 w-full relative" id="search-component">
-
-               <Link onClick={() => { gtagEvent('custom_click', 'home', 'click on salva web app') }} class="text-cd-rosa text-xs md:text-sm pb-1 md:pr-2 save-web-app" href="/salvawebapp"><LeftArrow />Salva <b>cadore.delivery</b> come app nella home!</Link>
 
                <div class="max-w-screen-xl mx-auto text-center px-5">
                   <p class="text-white mb-4">Inserisci il nome del paese o dell'attività che stai cercando</p>
