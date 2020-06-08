@@ -13,6 +13,9 @@ import { D_MinOrder } from './dialog_min_order.js';
 import CloseIcon from '../assets/svg/icon_close.svg';
 import PinIcon from '../assets/svg/map_pin.svg';
 
+// gtag
+import gtagEvent from '../utils/gtagEvents.js';
+
 export const Dialog = ({
    isOpen,
    closePopup,
@@ -31,7 +34,8 @@ export const Dialog = ({
    delivery_fee,
    insta,
    facebook,
-   menu_link
+   menu_link,
+   city = String(desc).substr(0, String(desc).indexOf('-'))
 }) => {
    return (
       <dialog
@@ -46,11 +50,13 @@ export const Dialog = ({
             <div class="flex justify-start md:justify-center items-center bg-cd-verde p-3 md:p-6 relative">
 
                <div class="md:text-center w-full md:w-auto">
-                  <h2 class="text-2xl font-bold text-white pr-10 md:pr-0 leading-tight">{name}</h2>
-                  <p class="text-white text-xs pr-10 md:pr-0">
-                     <PinIcon class="inline-block" width="20" height="20" style="margin-top:-5px;" />
-                     {desc}
-                  </p>
+                  <a href={`http://www.google.com/search?q=${name} ${city}`} target="_blank" onClick={() => { gtagEvent('custom_click', 'dialog - ' + name, 'google search') }}>
+                     <h2 class="text-2xl font-bold text-white pr-10 md:pr-0 leading-tight">{name}</h2>
+                     <p class="text-white text-xs pr-10 md:pr-0">
+                        <PinIcon class="inline-block" width="20" height="20" style="margin-top:-5px;" />
+                        {desc}
+                     </p>
+                  </a>
                </div>
 
                <button
